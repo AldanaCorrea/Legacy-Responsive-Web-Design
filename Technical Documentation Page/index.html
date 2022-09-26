@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+       
+                    
+            <main id="main-doc">
+                <nav id="navbar">
+                    <div class="divider"></div>
+                    <header>Espressif <br>Programming Guide<br> Esp32IDF</header>
+                    <ul>
+                        <li><a class="nav-link" href="#Get_Started">Get Started</a></li>
+                        <li><a class="nav-link" href="#What_You_Need">What You Need</a></li>
+                        <li><a class="nav-link" href="#Instalation">Instalation</a></li>
+                        <li><a class="nav-link" href="#Build_your_first_project">Build your first project</a></li>
+                        <li><a class="nav-link" href="#Additional_Tips">Additional Tips</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <section id="Get_Started" class="main-section">
+                                <header>Get Started</header>
+                                <p>
+                                    <code>This document is intended to help you set up the software development environment for the hardware based on the ESP32 chip by Espressif. After that, a simple example will show you how to use ESP-IDF (Espressif IoT Development Framework) for menu configuration, then for building and flashing firmware onto an ESP32 board.</code>
+                                </p>
+                                
+                                    <h3>Features</h3>
+                                <ul>
+                                    <li>Wi-Fi (2.4 GHz band)</li>
+                                    <li>Bluetooth</li>
+                                    <li>Dual high performance Xtensa® 32-bit LX6 CPU cores</li>
+                                    <li>Ultra Low Power co-processor</li>
+                                    <li>Multiple peripherals</li>
+                                </ul>
+                                
+                                <p>
+                                    <code>ESP32 Pinout Description</code>
+                                <br>
+                                <a href="https://www.mischianti.org/wp-content/uploads/2021/03/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti-1024x501.jpg">
+                                    <img src="esp.jpg"
+                                    width="600" height="300"
+                                    alt="ESP32 PINOUT" />
+                                </a>
+                                <br>
+                                </p>
+
+                                <h3>Security</h3>
+                                
+                                <ol>
+                                    <li>IEEE 802.11 standard security features all supported, including WFA, WPA/WPA2 and WAPI</li>
+                                    <li>Secure boot</li>
+                                    <li>Flash encryption</li>
+                                    <li>1024-bit OTP, up to 768-bit for customers</li>
+                                    <li> Cryptographic hardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)</li>
+                                </ol>
+                    </section>
+                        
+
+                    <section id="What_You_Need" class="main-section">
+                                <header>What You Need</header>
+                                <p>
+                                    <code>Hardware</code>
+                                    
+                                </p>
+                                    <ol>
+                                    <li>An ESP32 board</li>
+                                    <li>USB cable</li>
+                                    <li>Computer</li>
+                                    <li>O.S Windows, Linux or macOS </li>
+                                    <li>Documentation</li>
+                                </ol>
+                                <p>
+                                    <code>If you have one of ESP32 official development boards listed below, you can click on the link to learn more about the hardware.           </code>
+                                </p>
+                                <ul>
+                            
+                                    <li>ESP32-DevKitC</li>
+                                    <li>ESP-WROVER-KIT</li>
+                                    <li>ESP32-Ethernet-Kit</li>
+                                    <li>ESP32-PICO-KIT</li>
+                                    <li>ESP32-DevKit-S(-R)</li>
+                                </ul>
+                    </section>
+
+
+                    <section id="Instalation" class="main-section">
+                            <header>Instalation</header>
+                            <p>
+                                <code>To install all the required software, we offer some different ways to facilitate this task. Choose from one of the available options.</code>
+                            ...................................................
+                            </p>
+                                <ol>
+                                <li>Eclipse Plugin</li>
+                                <li>VSCode Extension</li>
+                                <li>Clion IDE</li>
+                                <li>Windows Installer</li>
+                                <li>Linux o macOS</li>
+                                </ol>
+                            <p>
+                                Software
+                            </p>
+                            <ul>
+                                <li>To start using ESP-IDF on ESP32, install the following software</li>
+                                <li>Toolchain to compile code for ESP32</li>
+                                <li>Build tools</li>
+                                <li>CMake and Ninja to build a full Application for ESP32</li>
+                                <li>ESP-IDF that essentially contains API (software libraries and source code) for ESP32 and scripts to operate the Toolchain  </p></li>
+                            </ul>
+                </section>
+
+
+                <section id="Build_your_first_project" class="main-section">
+                    <header>Build your first project</header>
+                    <p>
+                        If you already have the ESP-IDF installed and not using IDE, you can build your first project from the command line following the Start a Project on Windows or Start a Project on Linux and macOS.                </p>
+                    <ul>
+                        <li>Components of the installation</li>
+                        <li>Launching ESP-IDF Environment</li>
+                        <li>Using the Command Prompt</li>
+                        <li>First Steps on ESP-IDF</li>
+                        <li>Start a Project</li>
+                    </ul>
+                    <p>
+    ....................................................
+                    </p>
+                    <ol>
+                        <li>Connect Your Device</li>
+                        <li>Configure Your Project</li>
+                        <li>Build the Project</li>
+                        <li>Flash onto the Device</li>
+                        <li>Monitor the Output</li>
+                    </ol>
+                </section>  
+                        
+                <section id="Additional_Tips" class="main-section">
+                    <header>Additional Tips</header>
+                    <p>
+                        Fifth section paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    
+                    <ol>
+                        <li>Permission issues /dev/ttyUSB0</li>
+                        <li>Python compatibility</li>
+                        <li>Start with Board Support Package</li>
+                        <li>Flash Erase</li>
+                        <li>Related Documents</li>
+                    </ol>
+                    <p>
+                        For advanced users who want to customize the install process:
+                    </p>
+        
+                        <ul>
+                        <li>Updating ESP-IDF tools on Windows</li>
+                        <li>Establish Serial Connection with ESP32</li>
+                        <li>Eclipse Plugin</li>
+                        <li>VSCode Extension</li>
+                        <li>IDF Monitor</li>
+                        </ul>
+                </section>
+            </div>
+        </main>
+</html>
+
